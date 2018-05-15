@@ -7,7 +7,7 @@ public class WordCensorship {
 		boolean isInvalidWord;
 		
 		do {
-			System.out.println("Enter an adjective which describes the great Richard:");
+			System.out.println("Enter an adjective which describes the Richard:");
 			adjective = scanner.nextLine();
 			String adjectiveLowerCase = adjective.toLowerCase();
 			isInvalidWord = (adjectiveLowerCase.contains("lame") ||
